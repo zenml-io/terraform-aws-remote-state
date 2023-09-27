@@ -11,7 +11,6 @@ These features are supported:
 - specify whether to force destroy or not
 - apply custom bucket tags
 - block public access to bucket
-- prevent accidental deletion of bucket
 
 ## Usage
 
