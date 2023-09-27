@@ -32,9 +32,3 @@ variable "block_public_access" {
   default     = true
   type        = bool
 }
-
-variable "prevent_destroy" {
-  description = "Whether or not to prevent destruction of this bucket"
-  default     = true
-  type        = bool
-}
