@@ -7,7 +7,7 @@ To run the example:
 
 - Set up or login to an AWS account with the relevant permissions enabled
   (specifically, the ability to provision S3 storage buckets).
-- Update `example-config.tfvars` to match your needs. You can specify a GCS
+- Update `example-config.tfvars` to match your needs. You can specify a S3
   bucket name that does not already exist as well as the region on which you'd
   like it to be provisioned in.
   (Alternatively, pass in overrides via the command line and the `-var` option).

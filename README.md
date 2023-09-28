@@ -30,7 +30,7 @@ module "aws-remote-state" {
 }
 ```
 
-Use this with a AWS provider and this will spin up a bucket you can use as a
+Use this with an AWS provider and this will spin up a bucket you can use as a
 remote state Terraform backend.
 
 ## Help
