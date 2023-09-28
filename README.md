@@ -16,7 +16,7 @@ These features are supported:
 
 ```hcl
 module "aws-remote-state" {
-  source = "zenml-io/terraform-aws-remote-state"
+  source = "zenml-io/remote-state/aws"
   # We recommend pinning every module to a specific version
   # version = "x.x.x"
 
