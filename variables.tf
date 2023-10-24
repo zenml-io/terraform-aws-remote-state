@@ -32,3 +32,9 @@ variable "block_public_access" {
   default     = true
   type        = bool
 }
+
+variable "dynamodb_table_name" {
+  description = "The name of the DynamoDB table to use for locking"
+  default     = "terraform-remote-state-locks"
+  type        = string
+}
